@@ -1,0 +1,13 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "hello-coffee",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-21",
+  "workers_dev": true,
+  "build": { "command": "npm run build", "watch_dir": "./public" },
+  "assets": {
+    "directory": "./target/site",
+    "binding": "ASSETS",
+    "run_worker_first": true
+  }
+}
