@@ -1,6 +1,6 @@
 # HelloCoffee
 
-Eine JavaScript-Webseite, die `HelloCoffee` ausgibt. Ein Cloudflare Worker liefert die statischen Dateien aus.
+Eine JavaScript-Webseite, die `Hallo Espresso Welt` ausgibt. Ein Cloudflare Worker liefert die statischen Dateien aus.
 
 ## Voraussetzungen
 
